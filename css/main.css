@@ -8,52 +8,40 @@ html {
   box-sizing: inherit;
 }
 
-main {
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 .5em 1em;
-  max-width: 20em;
-  padding: 1em;
+  text-align: center;
 }
 
-header {
-  margin: 1.5rem;
+ul li {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  max-width: 25em;
+  text-align: left;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: #333;
-  margin: 0;
-}
-
-p {
-  color: #333;
-}
-
-img {
-  width: 100%;
-  max-width: 25em;
-  float: left;
-  padding: 1em;
   display: block;
+  font-size: 1.5em;
 }
 
-a {
-  text-decoration: none;
+ul img {
   display: inline-block;
-  padding: .4em .75em .5em;
-  background-color: #eee9de;
-  border-radius: 8px;
-  text-align: center;
-  margin: 1.5rem;
-  border-color: #333;
-  border-style: solid;
-  color: #333;
+  width: 100%;
+  margin-top: 1.5rem;
 }
 
-main {
+ul div {
+  text-align: left;
+}
 
+ul a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 3px solid #333;
+  padding: .5em .75em;
+  color: #333;
 }
